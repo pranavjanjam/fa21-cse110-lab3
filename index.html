@@ -1,7 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>Pranav's Meeting Minutes</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Pranav Janjam">
+        <link rel="icon" href="emojicon.png">
     </head>
+
     <body>
+        <header>
+            <h1>Meeting Minutes</h1>
+            <nav>
+                <ul>
+                    <li><a href="#overview">Meeting Overview</a></li>
+                    <li><a href="#attendees">Attendees</a></li>
+                    <li><a href="#topics">Topics</a></li>
+                    <li><a href="#summary">Meeting Summary</a></li>
+                    <li><a href="#form">Meeting Form</a></li>
+                </ul>
+            </nav> 
+        </header>
+
+        <hr>
+        <main>
+            <section>
+                <br>
+                <details open="open">
+                    <summary>
+                        <b id="overview"><span class="overview">Meeting Overview</span></b>
+                    </summary>
+                    <div>
+                        This meeting is for a campus organizatiom called <strong>SASD</strong>. We are planning our first meeting of the year, which will be our <i>Fall 2021 General Body Meeting</i>.
+                    </div>
+                </details>
+            </section>
+
+            <section>
+                <br>
+                <h2 id="attendees"><span class="attendees">Attendees</span></h2>
+                    <h3>Names</h3>
+                        <ul>
+                            <li>Pranav</li>
+                            <li>Nick</li>
+                            <li>Jake</li>
+                            <li>Chris</li>
+                        </ul>
+                    <h3>Description</h3>
+                        <p>
+                            <strong>Pranav</strong> is a third-year <i>Math–Computer Science</i> major in Marshall College at UCSD. He is from San Jose, California. He enjoys listening to music, playing/watching sports, and going to concerts. 
+                            <strong>Nick</strong> is a third-year <i>Computer Science</i> major in Marshall College. He is from La Verne, California. He enjoys playing video games, playing tennis, and attending picnics. 
+                            <strong>Jake</strong> is a third-year <i>Urban Studies and Planning</i> major in Roosevelt College at UCSD. He is from Rancho Cucamonga, California. He enjoys surfing, playing Spike Ball at the beach, and watching soccer. 
+                            <strong>Chris</strong> is a third-year <i>History</i> major in Roosevelt College at UCSD. He is from Yorba Linda, California. He enjoys watching movies, driving his truck, and drinking coffee.
+                        </p>
+                        <div>Here is a picture of the four meeting attendees:</div>
+                        <img src="attendees.jpg" alt="Attendees" width="450">
+            </section>
+
+            <section>
+                <br>
+                <h2 id="topics"><span class="topics">Topics</span></h2>
+                    <h3>Continuing from <em>last meeting</em></h3>
+                        <ol>
+                            <li>Venue for GBM</li>
+                            <li>Time of GBM</li>
+                            <li>Publicity/Design for Flyers</li>
+                        </ol>
+                    <h3>New topics for <em>current meeting</em></h3>
+                        <ol>
+                            <li>Funding for GBM</li>
+                            <li>Advertising and Sign-up Sheets</li>
+                            <li>GBM Schedule</li>
+                            <li>GBM Clean-up</li>
+                        </ol>
+            </section>
+
+            <section>
+                <br>
+                <h2 id="summary"><span class="summary">Meeting Summary</span></h2>
+                    <p>
+                        Every meeting, we start by singing the <b>National Anthem of the United States</b>, which can be heard here:
+                    </p>
+                    <audio controls src="nationalanthem.mp3"></audio>
+                    <p>
+                        Then, we take attendance to make sure that everyone is present, unless excused.
+                        After that, we like to start off the actual meeting by discussing a recap of the <em>previous</em> meeting.
+                        Next, we go over our agenda and topics for the <em>current</em> meeting. We discuss each topic in order of priority.
+                        After discussing all of the necessary topics, we open the meeting up for questions that anyone may have.
+                        Once all questions are taken care of, we end the meeting and everyone is excused.
+                        After finally ending the meeting, we usually like to relax and play some video games to de-stress after the long day.
+                        For example, here is a video of Nick and Jake playing video games after a productive meeting:
+                    </p>
+                    <video controls src="videogames.MOV" width="600"></video>
+
+            </section>
+
+            <section>
+                <br>
+                <h2 id="form"><span class="form">Meeting Form</span></h2>
+                <form>
+                    <fieldset>
+                        <div><b>Your full name:</b></div>
+                        <input type="text" id="fullname" name="fullname">
+                        <br><br>
+                        <div><b>Today's date:</b></div>
+                        <input type="date" id="date" name="date">
+                        <br><br>
+                        <div><b>What day to you prefer meetings to be on?</b></div>
+                        <input type="checkbox" id="monday" name="monday">
+                        <label for="monday">Monday</label>
+                        <input type="checkbox" id="tuesday" name="tuesday">
+                        <label for="tuesday">Tuesday</label>
+                        <input type="checkbox" id="wednesday" name="wednesday">
+                        <label for="wednesday">Wednesday</label>
+                        <input type="checkbox" id="thursday" name="thursday">
+                        <label for="thursday">Thursday</label>
+                        <input type="checkbox" id="friday" name="friday">
+                        <label for="friday">Friday</label>
+                        <input type="checkbox" id="saturday" name="saturday">
+                        <label for="saturday">Saturday</label>
+                        <input type="checkbox" id="sunday" name="sunday">
+                        <label for="sunday">Sunday</label>
+                        <br><br>
+                        <div><b>What was your favorite SASD event from last year?</b></div>
+                        <input type="radio" id="gbm" name="gbm">
+                        <label for="gbm">GBM</label>
+                        <input type="radio" id="bonfire" name="bonfire">
+                        <label for="bonfire">Bonfire</label>
+                        <input type="radio" id="potluck" name="potluck">
+                        <label for="potluck">Potluck</label>
+                        <input type="radio" id="dance" name="dance">
+                        <label for="dance">Dance</label>
+                        <input type="radio" id="other" name="other">
+                        <label for="other">Other</label>
+                        <br><br>
+                        <div><b>If you chose "Other," please specify which event you liked the most and why:</b></div>
+                        <textarea rows="5" cols="50"></textarea>
+                        <br><br>
+                        <div><b>Please choose your favorite member of the SASD board (There is only one correct answer):</b></div>
+                        <select>
+                            <option value="pranav">Pranav</option>
+                            <option value="nick">Nick</option>
+                            <option value="jake">Jake</option>
+                            <option value="chris">Chris</option>
+                        </select>
+                        <br><br>
+                        <div><b>Do you put your cereal before or after the milk?</b></div>
+                        <input list="cereal"/>
+                        <datalist id="cereal">
+                            <option value="Before the milk.">
+                            <option value="After the milk.">
+                            <option value="No milk.">
+                            <option value="I don't eat cereal.">
+                        </datalist>
+                        <br><br>
+                        <button type="submit">Submit Response</button>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+
+        <br>
+        <hr>
+        <footer>
+            <div>Thank you for following along!</div>
+        </footer>
     </body>
 </html>
