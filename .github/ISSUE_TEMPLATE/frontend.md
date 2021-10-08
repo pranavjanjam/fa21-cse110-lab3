@@ -1,10 +1,10 @@
 ---
 name: Frontend
 about: Issue with frontend
-title: ''
-labels: ''
-assignees: ''
+title: "[FRONTEND]"
+labels: bug
+assignees: pranavjanjam
 
 ---
 
-This issue template is for bugs or issues existing in the frontend of the project.
+Template to create issues existing in the backend of the project.

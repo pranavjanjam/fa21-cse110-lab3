@@ -1,10 +1,10 @@
 ---
 name: Backend
 about: Issue with backend
-title: ''
-labels: ''
-assignees: ''
+title: "[BACKEND]"
+labels: bug
+assignees: pranavjanjam
 
 ---
 
-This issue template is for bugs or issues existing in the backend of the project.
+Template to create issues existing in the backend of the project.
