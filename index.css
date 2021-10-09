@@ -1,0 +1,62 @@
+.heading { /*Formatting for main heading*/
+    background-color: gold;
+    width: 240px;
+    height: 35px;
+}
+*.page { /*Formatting for entire page*/
+    background-color: hsl(273, 100%, 97%);
+}
+h2 { /*Formatting for each main category*/
+    color: #0e4199;
+    text-align: center;
+    font-size: 3.5ex;
+}
+h3 { /*Formatting for each subcategory*/
+    color: #8a2700;
+    font-size: 1.2rem;
+}
+.contents {
+    border-width: 2px;
+    border-color: lightseagreen;
+    border-style: dotted;
+    border-radius: 10px;
+    margin-top: 1cm;
+    margin-right: 1cm;
+    margin-bottom: 1cm;
+    margin-left: 1cm;
+}
+.content-list {
+    padding-top: 0.5cm;
+    padding-right: 1cm;
+    padding-bottom: 0.5cm;
+    padding-left: 1cm;
+}
+h1, h2, h3 {
+    margin: auto;
+}
+#overview-section {
+    background-color: rgb(254, 232, 255);
+    height: 2cm;
+}
+#attendees-section {
+    background-color: rgb(248, 220, 255);
+    height: 195mm;
+}
+#topics-section {
+    background-color: rgb(242, 208, 255);
+    height: 3.5in;
+}
+#summary-section {
+    background-color: rgb(248, 220, 255);
+    height: 41pc;
+}
+#form-section {
+    background-color: rgb(254, 232, 255);
+    height: 475pt;
+}
+#formbox {
+    margin: 1cm 1cm 1cm 1cm
+}
+#namelist {
+    padding: 0.5cm 1cm 0.5cm 1cm
+}

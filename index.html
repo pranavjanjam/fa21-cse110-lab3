@@ -5,25 +5,33 @@
         <meta charset="UTF-8">
         <meta name="author" content="Pranav Janjam">
         <link rel="icon" href="emojicon.png">
+        <link rel="stylesheet" href="index.css">
     </head>
 
-    <body>
+    <body class="page">
         <header>
-            <h1>Meeting Minutes</h1>
-            <nav>
-                <ul>
-                    <li><a href="#overview">Meeting Overview</a></li>
-                    <li><a href="#attendees">Attendees</a></li>
-                    <li><a href="#topics">Topics</a></li>
-                    <li><a href="#summary">Meeting Summary</a></li>
-                    <li><a href="#form">Meeting Form</a></li>
+            <style> 
+                h1 {
+                    text-decoration: underline;
+                    color: rgb(139, 0, 182);
+                    font-size: 2em;
+                }
+            </style>
+            <h1 class="heading">Meeting Minutes</h1>
+            <nav class="contents">
+                <ul class="content-list">
+                    <li id="overview-content"><a href="#overview">Meeting Overview</a></li>
+                    <li id="attendees-content"><a href="#attendees">Attendees</a></li>
+                    <li id="topics-content"><a href="#topics">Topics</a></li>
+                    <li id="summary-content"><a href="#summary">Meeting Summary</a></li>
+                    <li id="form-content"><a href="#form">Meeting Form</a></li>
                 </ul>
             </nav> 
         </header>
 
         <hr>
         <main>
-            <section>
+            <section id="overview-section">
                 <br>
                 <details open="open">
                     <summary>
@@ -35,11 +43,11 @@
                 </details>
             </section>
 
-            <section>
+            <section id="attendees-section">
                 <br>
                 <h2 id="attendees"><span class="attendees">Attendees</span></h2>
                     <h3>Names</h3>
-                        <ul>
+                        <ul id="namelist">
                             <li>Pranav</li>
                             <li>Nick</li>
                             <li>Jake</li>
@@ -56,7 +64,7 @@
                         <img src="attendees.jpg" alt="Attendees" width="450">
             </section>
 
-            <section>
+            <section id="topics-section">
                 <br>
                 <h2 id="topics"><span class="topics">Topics</span></h2>
                     <h3>Continuing from <em>last meeting</em></h3>
@@ -74,7 +82,7 @@
                         </ol>
             </section>
 
-            <section>
+            <section id="summary-section">
                 <br>
                 <h2 id="summary"><span class="summary">Meeting Summary</span></h2>
                     <p>
@@ -94,10 +102,10 @@
 
             </section>
 
-            <section>
+            <section id="form-section">
                 <br>
                 <h2 id="form"><span class="form">Meeting Form</span></h2>
-                <form>
+                <form id="formbox">
                     <fieldset>
                         <div><b>Your full name:</b></div>
                         <input type="text" id="fullname" name="fullname">
