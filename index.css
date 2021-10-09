@@ -34,6 +34,9 @@ h3 { /*Formatting for each subcategory*/
     padding-left: 1cm;
     display: flex;
     justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 2fr 1fr;
 }
 h1, h2, h3 {
     margin: auto;
@@ -90,4 +93,15 @@ h1, h2, h3 {
 }
 #footer:active {
     color:green;
+}
+#lastmeeting {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+#currentmeeting {
+    display: grid;
+    grid-template-areas: 
+    "header header" 
+    "footer footer";
 }
