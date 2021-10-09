@@ -105,3 +105,9 @@ h1, h2, h3 {
     "header header" 
     "footer footer";
 }
+@media only screen and (max-width: 1000px) {
+    body {
+      color: green;
+      font-family: 'Oswald', sans-serif;
+    }
+}
