@@ -2,6 +2,8 @@
     background-color: gold;
     width: 240px;
     height: 35px;
+    position: fixed;
+    text-align: center;
 }
 *.page { /*Formatting for entire page*/
     background-color: hsl(273, 100%, 97%);
@@ -30,6 +32,8 @@ h3 { /*Formatting for each subcategory*/
     padding-right: 1cm;
     padding-bottom: 0.5cm;
     padding-left: 1cm;
+    display: flex;
+    justify-content: space-evenly;
 }
 h1, h2, h3 {
     margin: auto;
@@ -52,11 +56,38 @@ h1, h2, h3 {
 }
 #form-section {
     background-color: rgb(254, 232, 255);
-    height: 475pt;
+    height: 1000pt;
+    min-width: 550pt;
+    max-width: 1000pt;
 }
 #formbox {
-    margin: 1cm 1cm 1cm 1cm
+    margin: 1cm 1cm 1cm 1cm;
+    display: inline-block;
 }
 #namelist {
-    padding: 0.5cm 1cm 0.5cm 1cm
+    padding: 0.5cm 1cm 0.5cm 1cm;
+    display: flex;
+    flex-direction: column-reverse;
+}
+#summary-para {
+    display: inline;
+}
+.formfield {
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 40px;  
+    display: flex;
+    flex-flow: column;
+}
+#submit:hover {
+    color: white;
+    background-color: blue;
+}
+#submit:active {
+    color: white;
+    background-color: purple;
+}
+#footer:active {
+    color:green;
 }
